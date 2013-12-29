@@ -37,7 +37,7 @@
 				$guids[] = $entity->getGUID();
 			}
 
-			_elgg_get_metadata_cache()->populateFromEntities($guids);
+			elgg_get_metadata_cache()->populateFromEntities($guids);
 
 			$result = array();
 			$translations = array();
